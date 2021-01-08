@@ -18,4 +18,15 @@ class Quiz {
         self.options = options
         self.correctedAnswer = correctedAnswer
     }
+    
+    func ValidateOption(_ index: Int) -> Bool {
+    let answer = options[index]
+    return answer == correctedAnswer
+    
+    }
+    
+    deinit {
+        print("Liberou da memória")
+    }
+    
 }
