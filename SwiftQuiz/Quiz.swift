@@ -1,11 +1,3 @@
-//
-//  Quiz.swift
-//  SwiftQuiz
-//
-//  Created by jplima on 03/01/21.
-//  Copyright © 2021 jplima. All rights reserved.
-//
-
 import Foundation
 
 class Quiz {
@@ -26,7 +18,7 @@ class Quiz {
     }
     
     deinit {
-        print("Liberou da memória")
+        print("Liberou quiz da memória")
     }
     
 }

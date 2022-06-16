@@ -1,11 +1,3 @@
-//
-//  QuizViewController.swift
-//  SwiftQuiz
-//
-//  Created by jplima on 05/01/21.
-//  Copyright © 2021 jplima. All rights reserved.
-//
-
 import UIKit
 
 class QuizViewController: UIViewController {
@@ -15,7 +7,6 @@ class QuizViewController: UIViewController {
     @IBOutlet var buttonAnswers: [UIButton]!
     
     let quizManager = QuizManager()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,7 +46,6 @@ class QuizViewController: UIViewController {
     }
        
     @IBAction func SelectAnswer(_ sender: UIButton) {
-         
         let index = buttonAnswers.index(of: sender)!
         quizManager.validateAnswer(index: index)
         getNewQuiz()

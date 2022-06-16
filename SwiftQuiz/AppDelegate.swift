@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SwiftQuiz
-//
-//  Created by jplima on 02/01/21.
-//  Copyright © 2021 jplima. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

@@ -1,11 +1,3 @@
-//
-//  ResultViewController.swift
-//  SwiftQuiz
-//
-//  Created by jplima on 05/01/21.
-//  Copyright © 2021 jplima. All rights reserved.
-//
-
 import UIKit
 
 class ResultViewController: UIViewController {
