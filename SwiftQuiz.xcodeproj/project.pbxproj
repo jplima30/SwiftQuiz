@@ -70,13 +70,21 @@
 				00A8DAB625A7C19D00B7DF88 /* Main.storyboard */,
 				00F47EBD25A7D7B2005DD9FC /* QuizViewController.swift */,
 				00F47EBF25A7D7CA005DD9FC /* ResultViewController.swift */,
-				00F47EC125A7D7D7005DD9FC /* Quiz.swift */,
-				00F47EC325A7D7EC005DD9FC /* QuizManager.swift */,
+				00DD39A0285D47DB0067107A /* Model */,
 				00A8DAB925A7C19E00B7DF88 /* Assets.xcassets */,
 				00A8DABB25A7C19E00B7DF88 /* LaunchScreen.storyboard */,
 				00A8DABE25A7C19E00B7DF88 /* Info.plist */,
 			);
 			path = SwiftQuiz;
+			sourceTree = "<group>";
+		};
+		00DD39A0285D47DB0067107A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00F47EC125A7D7D7005DD9FC /* Quiz.swift */,
+				00F47EC325A7D7EC005DD9FC /* QuizManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
