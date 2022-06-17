@@ -66,11 +66,10 @@
 			children = (
 				00A8DAB025A7C19D00B7DF88 /* AppDelegate.swift */,
 				00A8DAB225A7C19D00B7DF88 /* SceneDelegate.swift */,
-				00A8DAB425A7C19D00B7DF88 /* ViewController.swift */,
-				00A8DAB625A7C19D00B7DF88 /* Main.storyboard */,
-				00F47EBD25A7D7B2005DD9FC /* QuizViewController.swift */,
-				00F47EBF25A7D7CA005DD9FC /* ResultViewController.swift */,
+				00DD39A1285D482C0067107A /* View */,
+				00DD39A2285D48440067107A /* Controller */,
 				00DD39A0285D47DB0067107A /* Model */,
+				00A8DAB625A7C19D00B7DF88 /* Main.storyboard */,
 				00A8DAB925A7C19E00B7DF88 /* Assets.xcassets */,
 				00A8DABB25A7C19E00B7DF88 /* LaunchScreen.storyboard */,
 				00A8DABE25A7C19E00B7DF88 /* Info.plist */,
@@ -85,6 +84,23 @@
 				00F47EC325A7D7EC005DD9FC /* QuizManager.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		00DD39A1285D482C0067107A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A8DAB425A7C19D00B7DF88 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00DD39A2285D48440067107A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00F47EBD25A7D7B2005DD9FC /* QuizViewController.swift */,
+				00F47EBF25A7D7CA005DD9FC /* ResultViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
